@@ -9,6 +9,8 @@
       href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap"
       rel="stylesheet"
     />
+    <meta name="description" content="My portfolio website" />
+    <meta name="keywords" content="web design, html, css, js" />
     <title>JS Portfolio || Chan</title>
   </head>
   <body>
@@ -27,7 +29,11 @@
           <li class="header__line"></li>
 
           <li>
-            <button class="header__sun" id="theme-toggle">
+            <button
+              aria-level="theme-toggle btn"
+              class="header__sun"
+              id="theme-toggle"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -46,6 +52,7 @@
 
         <button class="header__bars">
           <svg
+            aria-level="mobile nav button"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
             fill="currentColor"
@@ -77,6 +84,7 @@
           <li>
             <button class="mobile-nav__sun" id="theme-toggle">
               <svg
+                aria-level="theme-toggle btn"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 fill="currentColor"
@@ -173,6 +181,7 @@
           <h2 class="featured__title">Chan's Shop</h2>
           <a href="#" class="featured__link">
             <svg
+              aria-label="link featured projects"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
