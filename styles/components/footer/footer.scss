@@ -1,0 +1,11 @@
+@import "../../variables";
+
+.footer__title {
+  font-size: $size-sm;
+  font-weight: 400;
+  color: var(--clr-slate600);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  user-select: none;
+}
